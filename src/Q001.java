@@ -35,4 +35,31 @@ public class Q001{
     }
 }
 
-// 수정하기
+/*
+
+<point>
+
+-next, nextInt 차이.
+-toCharArray는 String을 Char형 배열로 변환.
+-length 사용하기.
+-char을 int로 변환하기.
+
+
+import java.util.Scanner;
+
+public class Q001{
+    public static void main(){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+
+        String sNum = sc.next();
+        char[] cNum = sNum.toCharArray();
+        int sum = 0;
+        for(int i=0; i<cNum.length; i++){
+            sum += cNum[i] - '0';
+        }
+        System.out.print(sum);
+     }
+}
+
+*/
