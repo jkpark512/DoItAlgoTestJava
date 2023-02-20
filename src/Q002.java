@@ -1,3 +1,5 @@
+// 평균 구하기.
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
